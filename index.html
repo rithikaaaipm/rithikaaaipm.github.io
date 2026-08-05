@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Rithikaa Vijayakumar | PM · BA · Project Manager</title>
+<title>Rithikaa Vijayakumar | Customer Success · Program Management · AI-Native PM</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
   :root {
@@ -93,7 +93,7 @@
   .hero-sub {
     font-size: 1.05rem;
     color: var(--muted);
-    max-width: 560px;
+    max-width: 580px;
     line-height: 1.7;
     margin-bottom: 2.25rem;
   }
@@ -241,6 +241,37 @@
     font-weight: 600;
   }
 
+  /* ── MANIFESTO ── */
+  .manifesto {
+    background: var(--ink);
+    color: #fff;
+    border-radius: 8px;
+    padding: 2.5rem clamp(1.75rem, 4vw, 3rem);
+    margin-bottom: 2.5rem;
+  }
+  .manifesto-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8da4f5;
+    margin-bottom: 0.9rem;
+  }
+  .manifesto p {
+    font-family: var(--serif);
+    font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    max-width: 640px;
+  }
+  .manifesto p em { color: #8da4f5; font-style: italic; }
+  .manifesto-sign {
+    margin-top: 1.5rem;
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.6);
+  }
+
   /* ── PROJECTS ── */
   .projects-grid {
     display: grid;
@@ -307,6 +338,7 @@
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--rule);
   }
+  .skill-group-name.lead { color: var(--accent); border-bottom-color: var(--accent-light); }
   .skill-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
   .skill-item {
     font-size: 0.8rem;
@@ -316,6 +348,7 @@
     background: var(--card);
     color: var(--ink);
   }
+  .skill-item.lead { border-color: var(--accent); background: var(--accent-light); color: var(--accent); }
 
   /* ── ABOUT ── */
   .about-grid {
@@ -359,7 +392,7 @@
     font-family: var(--serif);
     font-size: clamp(1.6rem, 3.5vw, 2.1rem);
     letter-spacing: -0.025em;
-    max-width: 380px;
+    max-width: 400px;
     line-height: 1.2;
   }
   .contact-heading em { font-style: italic; color: #8da4f5; }
@@ -416,22 +449,23 @@
 <!-- HERO -->
 <section id="hero">
   <div class="container">
-    <p class="hero-eyebrow">Available for PM · BA · Project Coordinator roles</p>
     <h1 class="hero-name">
-      Product & Project Manager.<br/>
-      <em>Business Analyst.</em><br/>
-      AI-native operator.
+      Customer Success,<br/>
+      Business Analytics,<br/>
+      <em>Project and Product Management.</em>
     </h1>
     <p class="hero-sub">
-      6+ years turning complex technical capabilities into things people actually use —
-      from a VoLTE rollout across 15M+ BT customers to RAG-powered AI products.
-      I work across IoT, B2B SaaS, telecom, and digital transformation.
+      5+ years leading technical support and customer success across IoT, telecom, and B2B SaaS —
+      from coordinating a roaming-services rollout to a 15M-customer base at BT Group, to
+      building AI-native tools that speed up my own operations work. Program management, business
+      analysis, and hands-on AI product experience are the services I bring to every customer-facing
+      team I lead.
     </p>
     <div class="hero-roles">
-      <span class="role-pill primary">AI Product Manager</span>
-      <span class="role-pill">Project Manager</span>
+      <span class="role-pill primary">Customer Success Leader</span>
+      <span class="role-pill">Support Operations</span>
+      <span class="role-pill">Program & Product Management</span>
       <span class="role-pill">Business Analyst</span>
-      <span class="role-pill">Project Coordinator</span>
       <span class="role-pill">B2B SaaS · IoT · Telecom</span>
     </div>
     <div class="hero-cta">
@@ -444,19 +478,19 @@
     <div class="metrics">
       <div class="metric">
         <div class="metric-num">15M+</div>
-        <div class="metric-label">Customers impacted via on-time programme delivery at BT</div>
+        <div class="metric-label">Customers covered by the BT roaming-services rollout I coordinated</div>
       </div>
       <div class="metric">
-        <div class="metric-num">~70%</div>
-        <div class="metric-label">Reduction in manual ops review time via automated dashboard</div>
+        <div class="metric-num">15+</div>
+        <div class="metric-label">Direct reports coached and led as Team Leader at BT Group</div>
       </div>
       <div class="metric">
-        <div class="metric-num">4</div>
-        <div class="metric-label">Cross-functional teams coordinated without direct authority</div>
+        <div class="metric-num">70K</div>
+        <div class="metric-label">IoT smart water meter units deployed in the Gujarat rollout I supported</div>
       </div>
       <div class="metric">
-        <div class="metric-num">6 wks</div>
-        <div class="metric-label">Average adoption timeline for internally delivered tooling</div>
+        <div class="metric-num">5+ yrs</div>
+        <div class="metric-label">Across customer success, technical support, and service delivery</div>
       </div>
     </div>
   </div>
@@ -466,32 +500,41 @@
 <section id="about">
   <div class="container">
     <p class="section-label">Background</p>
-    <h2 class="section-title">End-to-end ownership.<br/>Technical fluency. Data-driven delivery.</h2>
+    <h2 class="section-title">Customer-first delivery, backed by data and AI fluency.</h2>
     <div class="about-grid">
       <div class="about-text">
         <p>
-          My career spans IoT hardware (smart water meters at McWane), B2B SaaS (shop-floor digitisation),
-          consumer telecom (BT Group), and AI product development. I hold an
-          <strong>MSc in Business Analytics</strong> from the University of Exeter and a BEng in
-          Electronics Engineering — which means I can talk to engineers, data scientists, designers,
-          and C-suite stakeholders in the same conversation.
+          My career has run through technical support, customer success, and service delivery in
+          IoT, consumer telecom, and B2B SaaS/manufacturing-tech — starting on Level 1/2 support and
+          progressing to Team Leader, managing 15+ direct reports. I hold an <strong>MSc in Business
+          Analytics</strong> from the University of Exeter and a BEng in Electrical & Electronics
+          Engineering, which means I can sit with engineers, operations teams, and senior stakeholders
+          in the same conversation.
         </p>
         <p>
-          At BT I was promoted to Digital Programme Lead after identifying a complaint management gap
-          that was blocking 15+ team leaders and 200+ cases weekly — I scoped, built, and drove adoption
-          of an automated dashboard in six weeks. Before that I covered team leadership for 12–15 agents
-          while consistently ranking as a top performer on fault resolution.
+          At BT Group I was promoted from Customer Service Advisor to Team Leader within my first
+          year. I coached and led a team of 15+ support staff, directed readiness for a roaming
+          services rollout across a 15 million-customer base, and translated recurring complaint
+          patterns into structured requirements for a new Complaints Management System — closing the
+          loop with engineering using Jira and Confluence.
         </p>
         <p>
-          At McWane I managed end-to-end IoT deployment projects across 10–20 B2B enterprise clients,
-          led a structured vendor RFI process across 10+ global suppliers, and delivered a formal
-          recommendation directly to C-suite.
+          More recently, at a B2B SaaS startup digitising jewelry manufacturing shop floors (clients
+          including Titan Engineering and Emerald Jewellers), I ran discovery and stakeholder
+          interviews to convert pen-and-paper tracking into a real-time digital system — co-designing
+          gamified, multilingual, face-scan features so the product would actually get adopted by
+          non-literate and low-literacy factory workers.
         </p>
         <p>
-          Most recently I consulted at <strong>cvDX</strong> (May–Sep 2025), supporting
-          end-to-end delivery of a B2B workforce management platform.
-          I'm now actively pursuing PM, BA, and Project Coordinator roles
-          where I can bring both delivery rigour and AI product thinking.
+          Earlier, at McWane's smart water metering business, I owned end-to-end technical support and
+          implementation for enterprise IoT clients, including a 70,000-unit rollout in Gujarat — one
+          of the company's largest deployments — configuring meter-to-cloud data flows in SQL/MySQL
+          and gathering client requirements that fed directly into the product roadmap.
+        </p>
+        <p>
+          I'm now pursuing Customer Success and Support Operations roles where I can bring that same
+          empathetic, root-cause approach to client relationships — backed by program management,
+          business analysis, and increasingly, AI-native product thinking.
         </p>
       </div>
       <div class="about-links">
@@ -504,9 +547,6 @@
         <a href="mailto:rithikaaaipm@gmail.com" class="about-link">
           <span class="al-icon">✉️</span> rithikaaaipm@gmail.com
         </a>
-        <a href="tel:+918300933928" class="about-link">
-          <span class="al-icon">📞</span> +91 83009 33928
-        </a>
         <div class="about-link" style="cursor:default; flex-direction:column; align-items:flex-start; gap:0.3rem;">
           <span style="font-size:0.68rem; text-transform:uppercase; letter-spacing:0.1em; font-weight:600;">Education</span>
           <span>MSc Business Analytics · Exeter</span>
@@ -514,9 +554,10 @@
         </div>
         <div class="about-link" style="cursor:default; flex-direction:column; align-items:flex-start; gap:0.3rem;">
           <span style="font-size:0.68rem; text-transform:uppercase; letter-spacing:0.1em; font-weight:600;">Certifications</span>
-          <span>APM Project Management Qualification</span>
-          <span>Google Project Management (Coursera)</span>
+          <span>Google Project Management Professional Certificate</span>
+          <span>Associate Product Manager (APM) Certification</span>
           <span>Talking to AI: Prompt Engineering for PMs</span>
+          <span>PMI Member</span>
         </div>
       </div>
     </div>
@@ -527,53 +568,36 @@
 <section id="experience">
   <div class="container">
     <p class="section-label">Career timeline</p>
-    <h2 class="section-title">Where I've delivered.</h2>
+    <h2 class="section-title">Where I've led and delivered.</h2>
 
     <div class="timeline">
 
-      <!-- cvDX -->
+      <!-- BT – Team Leader -->
       <div class="job">
         <div class="job-meta">
-          <span class="job-company">cvDX</span>
-          <span class="job-period">May 2025 – Sep 2025 · Remote</span>
+          <span class="job-company">BT Group · UK</span>
+          <span class="job-period">Jun 2023 – Apr 2025</span>
         </div>
-        <div class="job-title">Independent Product & Project Consultant</div>
+        <div class="job-title">Team Leader — Customer Insights, Complaints & Service Delivery</div>
         <ul class="job-bullets">
-          <li>Supporting end-to-end delivery of a B2B workforce management platform — scope definition, milestone planning, dependency mapping, and acceptance criteria for a 100–500 user deployment.</li>
-          <li>Facilitated structured discovery and requirements-gathering sessions with 5–10 stakeholders across HR, operations, unions, and senior leadership — synthesising conflicting inputs into a prioritised delivery plan.</li>
-          <li>Maintained the project backlog and supported sprint planning across designers, developers, and business stakeholders.</li>
-          <li>Drafted status updates, risk logs, and decision registers; advised founding team on escalation approach and resolution.</li>
+          <li>Promoted from Customer Service Advisor to Team Leader within the first year, after ranking as a top-performing advisor on CSAT, Average Handle Time (AHT), and NPS.</li>
+          <li>Led and coached a team of 15+ customer service and technical support staff, owning performance management, 1:1 coaching, and skills training for new hires.</li>
+          <li>Directed the rollout of roaming services across a 15 million-customer eSIM/e-mobile base, coordinating cross-functional readiness with technical and product teams.</li>
+          <li>Analysed recurring complaint patterns and translated findings into structured requirements for a new Complaints Management System, improving categorisation and root-cause visibility for operations and engineering.</li>
+          <li>Partnered with technical teams to close the loop on repeat issues, using Jira and Confluence to track fixes from identification through release.</li>
         </ul>
       </div>
 
-      <!-- BT – Digital Programme Lead -->
+      <!-- Operations part-time -->
       <div class="job">
         <div class="job-meta">
-          <span class="job-company">BT Group · Bristol, UK</span>
-          <span class="job-period">Jul 2024 – Apr 2025</span>
+          <span class="job-company">South Devon Hospitality Ltd. & Hana Group · Exeter</span>
+          <span class="job-period">Feb 2022 – May 2023</span>
         </div>
-        <div class="job-title">Digital Programme Lead – Operations & Product Delivery</div>
+        <div class="job-title">Operations Roles (Part-Time, alongside Master's)</div>
         <ul class="job-bullets">
-          <li>Led cross-functional programme delivery for the VoLTE Roaming Services rollout across <strong>15M+ pay-monthly and PAYG customers</strong> — managing scope, schedule, risk, and stakeholder alignment across Consumer, Networks, Marketing, and Commercial teams over a 3–6 month timeline.</li>
-          <li>Identified a critical operational gap in complaint management affecting 15+ team leaders and 200+ unresolved cases weekly; scoped and project-managed delivery of an automated tracking dashboard, achieving full adoption within <strong>6 weeks</strong> and a <strong>~70% reduction</strong> in manual processing time.</li>
-          <li>Owned and maintained the programme RAID log across 4 workstreams; presented updates in weekly governance forums to senior leadership.</li>
-          <li>Managed competing priorities across 4 cross-functional teams without direct authority, resolving inter-team dependencies and keeping all workstreams aligned to shared milestones.</li>
-          <li>Produced all programme documentation: project initiation documents, delivery plans, stakeholder comms, post-implementation reviews.</li>
-        </ul>
-      </div>
-
-      <!-- BT – Technical Support Analyst & Team Lead -->
-      <div class="job">
-        <div class="job-meta">
-          <span class="job-company">BT Group · Exeter, UK</span>
-          <span class="job-period">May 2023 – Jun 2024</span>
-        </div>
-        <div class="job-title">Technical Support Analyst & Team Lead</div>
-        <ul class="job-bullets">
-          <li>Coordinated daily operations for a team of 10–15 agents — managing workload allocation, scheduling, escalation handling, and performance tracking against SLA-defined KPIs.</li>
-          <li>Analysed customer fault journey data across broadband and TV products to identify recurring failure patterns; produced insight reports shared with product and operations leadership.</li>
-          <li>Promoted to team leader within weeks of joining — recognised for organisational ability, stakeholder communication, and consistent KPI delivery.</li>
-          <li>Maintained accurate performance records; produced weekly management reports covering FCR, average handling time, and customer satisfaction scores.</li>
+          <li>Managed end-to-end daily operations — opening/closing, stock takes, inventory, and staff training — for a high-volume in-store sushi concession and a busy restaurant kitchen.</li>
+          <li>Owned customer service standards and daily performance targets while training incoming team members.</li>
         </ul>
       </div>
 
@@ -581,14 +605,15 @@
       <div class="job">
         <div class="job-meta">
           <span class="job-company">McWane, Inc. · Coimbatore, India</span>
-          <span class="job-period">Apr 2019 – Sep 2021</span>
+          <span class="job-period">May 2019 – Jul 2021</span>
         </div>
-        <div class="job-title">Technical Product & Project Associate – IoT</div>
+        <div class="job-title">Technical Support & Implementation Specialist</div>
         <ul class="job-bullets">
-          <li>Coordinated end-to-end onboarding and technical project delivery for IoT smart water meter deployments across 10–20 B2B enterprise clients — managing timelines, stakeholder communications, and issue resolution.</li>
-          <li>Led a structured vendor evaluation and RFI process for a new product line — assessed 10+ global suppliers against defined criteria, delivered a formal recommendation to C-suite with full supporting analysis.</li>
-          <li>Acted as the central coordination point across sales, technical delivery, and customer success — managing cross-team dependencies, resolving data-discrepancy issues, and maintaining SLA adherence.</li>
-          <li>Maintained project trackers, delivery logs, and client-facing status documentation across an active portfolio of concurrent enterprise deployments.</li>
+          <li>Owned end-to-end technical support for enterprise IoT clients across India and international markets, resolving issues, coordinating with engineering, and running customer-facing implementation demos.</li>
+          <li>Led implementation support for a 70,000-unit smart water meter rollout in Gujarat — one of the company's largest deployments.</li>
+          <li>Configured and validated meter-to-cloud data flows using SQL/MySQL, linking new customer records from QA through production to ensure accurate reporting in web and app dashboards.</li>
+          <li>Served as the primary liaison between engineering, sales, and customers for implementation, training, and recurring-issue escalation, using Jira for ticket tracking.</li>
+          <li>Gathered and documented feature requirements directly from clients to inform the product roadmap; led vendor research and delivered supplier recommendations directly to C-suite for a new product line.</li>
         </ul>
       </div>
 
@@ -601,12 +626,35 @@
   <div class="container">
     <p class="section-label">Selected work</p>
     <h2 class="section-title">Things I've built.</h2>
+
+    <div class="manifesto">
+      <p class="manifesto-label">A note on the projects below</p>
+      <p>
+        I don't wait for a team to hand me tooling. If a workflow is slow, I'll <em>write the script,
+        prompt the model, or build the dashboard myself</em> — the same instinct that got a 200-case
+        BT backlog automated in six weeks now gets pointed at AI. Customer success in 2026 means
+        knowing enough Python and enough about LLMs to close your own gaps, not just report them.
+      </p>
+      <p class="manifesto-sign">— Rithikaa</p>
+    </div>
+
     <div class="projects-grid">
+
+      <a href="https://github.com/rithikaaaipm" target="_blank" class="project-card">
+        <span class="project-icon">💬</span>
+        <div class="project-title">RAG Onboarding Chatbot</div>
+        <p class="project-desc">A retrieval-augmented chatbot designed for HR onboarding — employees can ask it directly about their contract terms, leave/rate balance, and eligibility for company schemes instead of filing a ticket.</p>
+        <div class="project-tags">
+          <span class="tag blue">RAG</span>
+          <span class="tag">HR / Onboarding</span>
+          <span class="tag">LLMs</span>
+        </div>
+      </a>
 
       <a href="https://github.com/rithikaaaipm" target="_blank" class="project-card">
         <span class="project-icon">🤖</span>
         <div class="project-title">AI Persona Generator</div>
-        <p class="project-desc">Live Streamlit app that uses Groq's LLaMA 3.3 70B to generate detailed AI product personas from user inputs. Built as part of a 30-day Python challenge.</p>
+        <p class="project-desc">Live Streamlit app that uses Groq's LLaMA 3.3 70B to generate detailed AI product/customer personas from user inputs — self-built as part of a 30-day Python challenge.</p>
         <div class="project-tags">
           <span class="tag blue">Live on Streamlit</span>
           <span class="tag">Python</span>
@@ -617,59 +665,12 @@
 
       <a href="https://github.com/rithikaaaipm" target="_blank" class="project-card">
         <span class="project-icon">📊</span>
-        <div class="project-title">BT Ops Dashboard</div>
-        <p class="project-desc">Automated complaint-tracking dashboard that reduced manual review time by ~70% and was adopted by 15+ team leaders within 6 weeks. Built at BT Group.</p>
+        <div class="project-title">Complaints Dashboard — BT/EE</div>
+        <p class="project-desc">Automated complaint-tracking dashboard I scoped and drove adoption for at BT/EE — cut manual review time from a full day to minutes and was adopted by 15+ team leaders within 6 weeks.</p>
         <div class="project-tags">
-          <span class="tag blue">Delivered · BT Group</span>
+          <span class="tag blue">Delivered · BT/EE</span>
           <span class="tag">Process Automation</span>
           <span class="tag">Stakeholder Adoption</span>
-        </div>
-      </a>
-
-      <a href="https://github.com/rithikaaaipm" target="_blank" class="project-card">
-        <span class="project-icon">🔢</span>
-        <div class="project-title">PM Toolkit – 30-Day Python Challenge</div>
-        <p class="project-desc">Suite of PM-flavoured Python tools: DAU calculator, NPS analyser, API monitor, A/B checker, sprint tracker, cohort table, changelog summariser.</p>
-        <div class="project-tags">
-          <span class="tag blue">In Progress</span>
-          <span class="tag">Python</span>
-          <span class="tag">pandas</span>
-          <span class="tag">PM workflows</span>
-        </div>
-      </a>
-
-      <a href="https://github.com/rithikaaaipm" target="_blank" class="project-card">
-        <span class="project-icon">🌊</span>
-        <div class="project-title">IoT Smart Water Meter Deployments</div>
-        <p class="project-desc">End-to-end project delivery for 10–20 B2B enterprise IoT deployments at McWane Inc., including a full vendor RFI process across 10+ global suppliers.</p>
-        <div class="project-tags">
-          <span class="tag blue">Delivered · McWane</span>
-          <span class="tag">IoT</span>
-          <span class="tag">B2B Enterprise</span>
-          <span class="tag">Vendor RFI</span>
-        </div>
-      </a>
-
-      <a href="https://github.com/rithikaaaipm" target="_blank" class="project-card">
-        <span class="project-icon">📋</span>
-        <div class="project-title">PM / BA Terminology Glossary</div>
-        <p class="project-desc">A 60+ term interactive HTML glossary of PM, BA, and Project Coordinator job description terminology, organised into 8 categories with search and filter.</p>
-        <div class="project-tags">
-          <span class="tag">HTML/JS</span>
-          <span class="tag">Reference Tool</span>
-          <span class="tag">BA · PM · PC</span>
-        </div>
-      </a>
-
-      <a href="https://github.com/rithikaaaipm" target="_blank" class="project-card">
-        <span class="project-icon">📡</span>
-        <div class="project-title">VoLTE Roaming Rollout</div>
-        <p class="project-desc">Programme-level delivery of BT's VoLTE Roaming Services across 15M+ customers — managing scope, schedule, risk, and cross-functional alignment over 3–6 months.</p>
-        <div class="project-tags">
-          <span class="tag blue">Delivered · BT Group</span>
-          <span class="tag">Telecom</span>
-          <span class="tag">Programme Delivery</span>
-          <span class="tag">15M+ users</span>
         </div>
       </a>
 
@@ -681,39 +682,44 @@
 <section id="skills">
   <div class="container">
     <p class="section-label">Core competencies</p>
-    <h2 class="section-title">What I bring to the table.</h2>
+    <h2 class="section-title">What I bring to a customer-facing team.</h2>
     <div class="skills-grid">
       <div class="skill-group">
-        <div class="skill-group-name">Project & Programme Delivery</div>
+        <div class="skill-group-name lead">Customer Success & Support</div>
+        <div class="skill-list">
+          <span class="skill-item lead">CSAT / NPS / AHT</span>
+          <span class="skill-item lead">Escalation Management</span>
+          <span class="skill-item lead">Retention</span>
+          <span class="skill-item lead">Root-Cause Analysis</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-name lead">Team Leadership & Coaching</div>
+        <div class="skill-list">
+          <span class="skill-item lead">15+ direct reports</span>
+          <span class="skill-item lead">1:1 Coaching</span>
+          <span class="skill-item lead">New-Hire Training</span>
+          <span class="skill-item lead">Performance Management</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-name">Program & Project Delivery</div>
         <div class="skill-list">
           <span class="skill-item">End-to-end lifecycle</span>
           <span class="skill-item">Scope definition</span>
           <span class="skill-item">RAID logs</span>
           <span class="skill-item">Milestone planning</span>
-          <span class="skill-item">PIRs</span>
-          <span class="skill-item">Change control</span>
+          <span class="skill-item">Change management</span>
         </div>
       </div>
       <div class="skill-group">
-        <div class="skill-group-name">Product Management</div>
-        <div class="skill-list">
-          <span class="skill-item">Discovery & personas</span>
-          <span class="skill-item">Backlog management</span>
-          <span class="skill-item">OKRs</span>
-          <span class="skill-item">MoSCoW / RICE</span>
-          <span class="skill-item">JTBD</span>
-          <span class="skill-item">User story mapping</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-name">Business Analysis</div>
+        <div class="skill-group-name">Product & Business Analysis</div>
         <div class="skill-list">
           <span class="skill-item">Requirements gathering</span>
           <span class="skill-item">Process mapping</span>
-          <span class="skill-item">Business cases</span>
+          <span class="skill-item">Discovery & personas</span>
+          <span class="skill-item">Backlog management</span>
           <span class="skill-item">Gap analysis</span>
-          <span class="skill-item">Decision logs</span>
-          <span class="skill-item">Data analysis</span>
         </div>
       </div>
       <div class="skill-group">
@@ -727,25 +733,13 @@
         </div>
       </div>
       <div class="skill-group">
-        <div class="skill-group-name">Stakeholder & Governance</div>
+        <div class="skill-group-name">Tools & Tech</div>
         <div class="skill-list">
-          <span class="skill-item">Executive reporting</span>
-          <span class="skill-item">Governance forums</span>
-          <span class="skill-item">Stakeholder mapping</span>
-          <span class="skill-item">Escalation management</span>
-          <span class="skill-item">Cross-functional alignment</span>
-        </div>
-      </div>
-      <div class="skill-group">
-        <div class="skill-group-name">Tech & Tools</div>
-        <div class="skill-list">
+          <span class="skill-item">SQL / MySQL</span>
+          <span class="skill-item">Jira & Confluence</span>
           <span class="skill-item">Python</span>
-          <span class="skill-item">SQL</span>
-          <span class="skill-item">REST APIs</span>
           <span class="skill-item">RAG / LLMs</span>
           <span class="skill-item">Groq / LangChain</span>
-          <span class="skill-item">Figma</span>
-          <span class="skill-item">Mural</span>
           <span class="skill-item">Streamlit</span>
         </div>
       </div>
@@ -769,7 +763,7 @@
   <div class="container">
     <div class="contact-inner">
       <div class="contact-heading">
-        Open to <em>PM, BA & Project Coordinator</em> roles — conventional and AI-native.
+        Got an idea? Want to <em>build something together</em>, or need a second brain for your business? Let's talk.
       </div>
       <div class="contact-actions">
         <a href="mailto:rithikaaaipm@gmail.com" class="contact-btn">✉️ &nbsp;rithikaaaipm@gmail.com</a>
